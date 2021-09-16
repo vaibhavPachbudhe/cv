@@ -1,9 +1,41 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Trebuchet MS', sans-serif;
 }
+.typing{
+  display: flex;
+}
+.typing{
+  position:relative;
+  margin-right: 10px;
 
+}
+.iam{
+  font-size: 2rem;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+.javascript{
+  color: #f0db4f;
+}
+.first_p::after{
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 50%;
+  border-right: 4px solid black;
+  animation: blink 0.75s infinite ease;
+}
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity:1;
+  }
+
+}
 h1 {
   margin: 0;
   font-size: 4rem;
