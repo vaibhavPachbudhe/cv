@@ -1,4 +1,4 @@
-const text = [' Programmer()',' Chess Player()', ' Good Typer()', ' Web developer()'];
+const text = [' Programmer()',' Chess Player()', ' Good Typer()', ' developer()'];
 let count = 0;
 let index = 0;
 let currentText = '';
